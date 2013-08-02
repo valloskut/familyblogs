@@ -18,14 +18,14 @@ gem 'haml-rails'
 gem 'bootstrap-sass'
 gem 'simple_form', git: 'https://github.com/plataformatec/simple_form.git'
 gem 'rspec-rails', ">= 2.12.2", :group => [:development, :test]
-gem 'database_cleaner', ">= 1.0.0.RC1", :group => :test
-gem 'launchy', ">= 2.2.0", :group => :test
 gem 'capybara', ">= 2.0.3", :group => :test
 gem 'factory_girl_rails', ">= 4.2.0", :group => [:development, :test]
-gem 'devise', ">= 2.2.3"
+gem 'database_cleaner', ">= 1.0.0.RC1", :group => :test
+gem 'launchy', ">= 2.2.0", :group => :test
 gem 'quiet_assets', ">= 1.0.2", :group => :development
 gem 'better_errors', ">= 0.7.2", :group => :development
 gem 'binding_of_caller', ">= 0.7.1", :group => :development #, :platforms => [:mri_19, :rbx]
+gem 'devise', ">= 2.2.3"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

@@ -15,7 +15,8 @@ group :doc do
 end
 
 gem 'haml-rails'
-gem 'bootstrap-sass'
+#gem 'bootstrap-sass'
+gem 'zurb-foundation'
 gem 'simple_form', git: 'https://github.com/plataformatec/simple_form.git'
 gem 'rspec-rails', ">= 2.12.2", :group => [:development, :test]
 gem 'capybara', ">= 2.0.3", :group => :test

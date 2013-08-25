@@ -1,0 +1,25 @@
+.row
+  .large-12.columns
+    / Navigation
+    %nav.top-bar
+      %ul.title-area
+        / Title Area
+        %li.name
+          %h1
+            %a{href: root_path}
+              FamilyBlogs
+        %li.toggle-topbar.menu-icon
+          %a{:href => "#"}
+            %span menu
+      %section.top-bar-section
+        %ul.left
+          %li= link_to 'Home', root_path
+          %li= link_to 'About Us', about_path
+
+        %ul.right
+          %li.search
+            %form
+              %input{:type => "search"}/
+          %li.has-button
+            %a.small.button{:href => "#"} Search
+    / End Navigation
